@@ -45,8 +45,53 @@
             </a>
           </div>
         </section>
-        <section class="input"></section>
+        <section class="input">
+          <form action="#">
+            <label for="username"
+              >სახელი, გვარი
+              <input
+                type="text"
+                name="user_name"
+                placeholder="შეიყვანეთ სახელი, გვარი"
+                id="username"
+              />
+            </label>
+            <label for="email"
+              >ელ.ფოსტა
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="example@gmail.com"
+              />
+            </label>
+            <label for="phone"
+              >ტელეფონის ნომერი
+              <input
+                type="tel"
+                name="phone"
+                placeholder="+995 ... ......"
+                id="phone"
+              />
+            </label>
+            <label for="message"
+              >შეტყობინება
+              <textarea
+                type="textarea"
+                name="message"
+                id="message"
+                rows="5"
+                cols="30"
+                placeholder="შეიყვანეთ ტექსტი"
+              ></textarea>
+            </label>
+            <button type="submit">გაგზავნა</button>
+          </form>
+        </section>
       </div>
+      <p class="text1">
+        დამზადებულია <img src="src/img/heart.png" alt="" />-ით
+      </p>
     </footer>
   </body>
 </html>
